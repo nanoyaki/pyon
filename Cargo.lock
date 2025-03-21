@@ -180,17 +180,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d8adc4bb1803a324070e64a98ae98f38934d91957a99cfb3a43dcbc01bc56439"
 
 [[package]]
-name = "meow-cli"
-version = "2.1.4"
-dependencies = [
- "clap",
- "clap-num",
- "glob",
- "include_dir",
- "rand",
-]
-
-[[package]]
 name = "num-traits"
 version = "0.2.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -215,6 +204,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5e719e8df665df0d1c8fbfd238015744736151d4445ec0836b8e628aae103b77"
 dependencies = [
  "unicode-ident",
+]
+
+[[package]]
+name = "pyon-cli"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "clap-num",
+ "glob",
+ "include_dir",
+ "rand",
 ]
 
 [[package]]

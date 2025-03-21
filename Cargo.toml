@@ -1,13 +1,11 @@
 [package]
-name = "meow-cli"
-version = "2.1.4"
+name = "pyon"
+version = "0.1.0"
 edition = "2021"
-authors = ["PixelSergey <sergey.ichtchenko@gmail.com>"]
+authors = [ "Hana Kretzer <hanakretzer@gmail.com>", "PixelSergey <sergey.ichtchenko@gmail.com>"]
 license = "MIT"
-description = "Print ASCII cats to your terminal"
+description = "Print ASCII and braille bunnies to your terminal"
 readme = "README.md"
-homepage = "https://github.com/PixelSergey/meow"
-repository = "https://github.com/PixelSergey/meow"
 keywords = ["cli", "terminal", "utility", "text", "game"]
 categories = ["command-line-utilities"]
 
